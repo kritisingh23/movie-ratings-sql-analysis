@@ -35,6 +35,24 @@ The analysis was performed using SQL by querying and analyzing multiple related 
 - Common Table Expressions (CTEs)
 
 ---
+## Database Schema
+
+The analysis was performed on a relational movie database containing information about movies, ratings, genres, actors, directors, and production details.
+
+![Database Schema](images/schema_diagram.png)
+
+### Main Tables
+
+| Table | Description |
+|---------|-------------|
+| movie | Contains movie details such as title, duration, language, and production company |
+| ratings | Stores movie ratings, votes, and median ratings |
+| genre | Maps movies to their genres |
+| names | Contains information about actors and directors |
+| role_mapping | Maps actors and actresses to movies |
+| director_mapping | Maps directors to movies |
+
+---
 
 ## Repository Structure
 
